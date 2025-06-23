@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Práctica 11 de formularios html">
+    <meta name="keywords" content="formularios, práctica, Modulo 1">
+    <title>Práctica 11</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Registro de Usuarios</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required><br>
+            <label>Genero:</label>
+            <input type="radio" name="genero" value="Femenino" id="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" value="Masculino" id="masculino">
+            <label for="masculino">Masculino</label><br>
+            <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" required placeholder="Elige una contraseña segura"><br>
+            <label for="num_materias">Número de asignaturas matriculadas</label>
+            <input type="number" name="num_materias" id="num_materias" min="1" max="15"><br>
+
+            <select name="curso">
+                <option selected disabled>Selecciona el curso matriculado</option>
+                <option value="CP">Curso Presencial</option>
+                <option value="CS">Curso Semi-Presencial</option>
+                <option value="CO">Curso Online</option>
+                <option value="CI">Curso Intensivo</option>
+            </select><br>
+
+            <label for="true_condiciones">¿Acepta el registro y las condiciones?</label><br>
+            <input type="radio" name="terminos_condiciones" id="true_condiciones" value="true">
+            <label for="true_condiciones">Si</label>
+            <input type="radio" name="terminos_condiciones" id="false_condiciones" value="false">
+            <label for="false_condiciones">No</label><br>
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
