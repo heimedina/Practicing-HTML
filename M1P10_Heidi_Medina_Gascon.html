@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="práctica con formularios, modulo 1">
+    <meta name="keywords" content="formularios, práctica">
+    <title>Práctica 10</title>
+    <style>
+        form{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>Seleccionar curso</legend>
+            <label for="curso_front_end">Curso Front End</label>
+            <input type="checkbox" name="curso_front_end" id="curso_front_end">
+            <label for="curso_java">Curso Java</label>
+            <input type="checkbox" name="curso_java" id="curso_java">
+            <label for="curso_full_stack">Curso Full Stack</label>
+            <input type="checkbox" name="curso_full_stack" id="curso_full_stack">
+        </fieldset>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+    </form>
+    
+</body>
+</html>
