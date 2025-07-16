@@ -1,0 +1,42 @@
+h1{
+    font-size: 16px;
+    color: #333FFF;
+    font-weight: bolder;
+}
+
+img{
+    height: 60px;
+}
+.menu{
+    background-color: #000000;
+    width: 100%;
+    color: white;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    padding: 15px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: blueviolet;
+}
+.pie{
+    background-color: #000000;
+    width: 100%;
+    color: white;
+}
+.pie ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.pie li{
+    padding: 15px;
+}
