@@ -1,0 +1,181 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(135deg, blue, #2cc1eb, blue);
+}
+
+.cabecera-1{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.cabecera-2{
+    display: flex;
+    align-items: flex-end; /* Los íconos se alinean abajo */
+    gap: 10px;
+}
+
+.cabecera-2 a{
+    display: inline-block;     /*para que el <a> se ajuste al contenido */
+    padding: 10px;
+    margin: 0;
+    line-height: 0;            /*elimina espacio vertical adicional */
+    border: none;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: white;
+}
+
+.imagen-header{
+    height: 100px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.imagen-header-2{
+    display: block;
+    height: 40px;
+    width: 40px;
+    /*margin-top: 80px;*/
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu{
+    background-color: blue;
+    background: linear-gradient(135deg, blue, #2185a0);
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0; 
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li:hover {
+    background-color: rgb(32, 2, 130);
+}
+
+.menu a{
+    padding: 20px;
+    color: white;
+    display: block; /* Asegura que el enlace ocupe todo el ancho del <li> */
+    text-decoration: none;
+}
+
+.menu a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a{
+    color: deeppink;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal input:not([type="checkbox" i]){
+    display: block;
+    margin: 5px;
+}
+
+.principal input[type="submit"]{
+    padding: 10px;
+    background: linear-gradient(135deg, #3535e0, #2575fc);
+    border-radius: 10px;
+    color: white;
+    border: white;
+}
+
+aside{
+    width: 500px;
+    margin: 35px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    background-color: #cadcec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form{
+    padding: 10px;
+}
+
+.inputs-form{
+    display: flex;
+    align-items: center;
+}
+
+fieldset{
+    margin: 10px;
+}
+
+#part-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#descripcion, #our_team, #cursos{
+    height: 50px;
+}
+
+.team-teacher{
+    display: flex;
+    flex-direction: row;
+}
+
+.team-teacher-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    border-radius: 25px; /* Bordes semicircular*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    border: 4px dashed transparent;
+    background: linear-gradient(135deg, #cadcec, #f0f8ff);
+    transition: transform 0.3s ease;
+}
+
+.team-teacher-item:hover {
+  transform: scale(1.05);
+}
+
+.pie{
+    background-color: blue;
+    width: 100%;
+    color: white;
+}
+
+.pie ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pie li{
+    padding: 15px;
+}
