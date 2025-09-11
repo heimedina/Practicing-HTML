@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style_P04.css">
+    <title>Mi Web Completa I</title>
+</head>
+<body>
+    <header class="cabecera" id="cabecera">
+        <div class="cabecera-1">
+            <img class="imagen-header" src="../media/Img/academia_img.png" alt="imagen Academia">
+            <div style="display: flex; flex-direction: column;">
+                <h1>Academia de Idiomas de Europa</h1>
+                <h1 style="text-align: center; color: yellow; padding: 0%; margin: 0;">LinguaMundo</h1>
+            </div>
+        </div>
+        <div class="cabecera-2">
+            <a href="https://www.facebook.com/"> <img class="imagen-header-2" src="../media/Img/facebook_img.png" alt="logo_facebook"></a>
+            <a href="https://www.instagram.com/"> <img class="imagen-header-2" src="../media/Img/instagram_img.png" alt="imagen instagram"></a>
+            <a href="https://www.LinkedIn.com/">  <img class="imagen-header-2" src="../media/Img/linkedin_img.png" alt="imagen LinkedIn"></a>
+        </div>
+        
+    </header>
+    <nav class="menu" id="menu">
+        <ul>
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li><a href="quienes_somos.html">Quienes Somos</a></li>
+            <li><a href="our_team.html">Nuestro Equipo</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="#promociones">Promociones vigentes</a></li>
+            <li><a href="#iden-main">Contacto</a></li>
+        </ul>
+    </nav>
+    <main id="iden-main">
+        <div class="principal">
+            <article id="inicio">
+                <div class="part-1">
+                    <img src="../media/Img/prof_img.png" alt="foto Profesor">
+                    <div>
+                        <h2>"Aprende idiomas con propósito. Domina el mundo con tus palabras”</h2>
+                        <p>En LinguaMundo, llevamos más de 10 años formando a personas como tú para abrir puertas en el mundo académico, profesional y personal.</p>
+                    </div>
+                </div>
+                <div id="part-2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veniam deserunt nesciunt temporibus enim amet sint voluptatibus ipsum obcaecati incidunt aliquid, dolorem, eveniet placeat illo saepe quasi commodi, cumque itaque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil magnam exercitationem sunt illo commodi quibusdam, autem, id magni quisquam quod consectetur, dolorum eveniet! Reiciendis ullam tempora vel eligendi harum!</p>
+                </div>
+            </article>
+            <aside id="contacto">
+                <p>REGÍSTRATE</p>
+                <p>¡Te informaremos de la apertura para nuevas matriculaciones!</p>
+                <form method="post">
+                    <div class="inputs-form">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required placeholder="Escribe tu nombre aquí">
+                    </div>
+                    <div class="inputs-form">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required placeholder="Escribe tu apellido aquí">
+                    </div>
+                    <div class="inputs-form">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Indica un número válido">
+                    </div>
+                    <div class="inputs-form">
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="email" required placeholder="Escribe tu correo aquí">
+                    </div>
+                    <textarea name="consulta" id="consulta" placeholder="Indicanos tu consulta"></textarea>
+                    <fieldset>
+                        <legend>Seleccionar curso</legend>
+                        <label for="curso_ingles">Certificaciones en Inglés</label>
+                        <input type="checkbox" name="curso_ingles" id="curso_ingles">
+                        <label for="curso_frances">Certificaciones en Francés</label>
+                        <input type="checkbox" name="curso_frances" id="curso_frances">
+                        <label for="curso_aleman">Certificaciones en Alemán</label>
+                        <input type="checkbox" name="curso_aleman" id="curso_aleman">
+                        <label for="curso_espanol">Certificaciones en Español</label>
+                        <input type="checkbox" name="curso_espanol" id="curso_espanol">
+                    </fieldset>
+                    <input type="checkbox" name="promociones_correo" id="promociones_correo">
+                    <label for="promociones_correo">¡Quiero recibir promociones en la bandeja de mi correo!</label>
+                    
+
+                    <input type="submit" name="enviar" id="enviar" value="Enviar">
+                </form>
+            </aside>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <a href="#cabecera">Volver al Inicio</a> <br><br><br><br><br><br><br><br><br><br>
+        <article id="promociones">
+            <h2>Promociones vigentes</h2>
+            <h3>Aquí se plasman todas las promociones............</h3>
+            <div class="team-promociones">
+                <div class="team-teacher-item">
+                    <h3>&laquo;Aprende Inglés en 9 meses&raquo;</h3>
+                </div>
+                <div class="team-teacher-item">
+                    <h3>&laquo;Domina el Francés en 1 año&raquo;</h3>
+                </div>
+                <div class="team-teacher-item">
+                    <h3>&laquo;Aprende Alemán en 1 año académico&raquo;</h3>
+                </div>
+                <div class="team-teacher-item">
+                    <h3>&laquo;Domina el Español de una vez&raquo;</h3>
+                </div>
+            </div>
+        </article>
+        <a href="#cabecera">Volver al Inicio</a> <br><br><br><br><br><br><br><br><br><br>
+        
+    </main>
+    <footer class="pie">
+        <div class="foot-1">
+            <ul>
+                <li>Aviso Legal</li>
+                <li>Política de Cookies</li>
+                <li>Política de Privacidad</li>
+            </ul>
+            <p>Copyright © Todos los derechos reservados.</p>
+            <div class="foot-1-redes">
+                <a href="https://www.facebook.com/"> <img class="imagen-header-2" src="../media/Img/facebook_img.png" alt="logo_facebook"></a>
+                <a href="https://www.instagram.com/"> <img class="imagen-header-2" src="../media/Img/instagram_img.png" alt="imagen instagram"></a>
+                <a href="https://www.LinkedIn.com/">  <img class="imagen-header-2" src="../media/Img/linkedin_img.png" alt="imagen LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 20,
+    stretch: 0,
+    depth: 350,
+    modifier: 1,
+    slideShadows: true
+  },
+  pagination: {
+    el: ".swiper-pagination"
+  }
+});
+
+    </script>
+    
+</body>
+</html>
